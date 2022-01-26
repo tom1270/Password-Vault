@@ -63,6 +63,9 @@ public class afterLoginController implements Initializable{
 
     @FXML
     private Button addp;
+    
+    @FXML
+    private Button shareb;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {

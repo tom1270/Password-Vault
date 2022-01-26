@@ -42,6 +42,7 @@ public class main extends Application {
             String ucol, scol, swcol, pcol;
             Button addp = new Button("Add");
             Button dp = new Button("Delete");
+            Button shareb = new Button("Share");
         primaryStage.setTitle("Password Keeper");
         primaryStage.setScene(new Scene(root, 1064, 700));
         primaryStage.show();
