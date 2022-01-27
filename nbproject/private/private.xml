@@ -2,6 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/Pass_Sharing.fxml</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/afterLogin.fxml</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/AccountCreate.fxml</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/AccountCreateControl.java</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/ALog.java</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/main.java</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/afterLoginController.java</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/ShareScreenController.java</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/sharescreen.fxml</file>
+            <file>file:/C:/Users/nofoo/Documents/NetBeansProjects/Password%20sharing/src/password/sharing/PassController.java</file>
+        </group>
     </open-files>
 </project-private>

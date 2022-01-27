@@ -67,7 +67,7 @@ public class AccountCreateControl {
             }
         int g = 7-q;
         if(q<7){
-          pset.setText("Password not valid, "+ g +" more characters are needed");
+          pset.setText("Password not valid, "+ g +" more character(s) are needed");
            return;  
             }
         

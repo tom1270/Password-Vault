@@ -13,6 +13,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -85,7 +86,14 @@ public class afterLoginController implements Initializable{
        tableViewPeople.sort();
         
 
-        //throw new UnsupportedOperationException("Not supported yet."); To change body of generated methods, choose Tools | Templates.
+     //throw new UnsupportedOperationException("Not supported yet."); To change body of generated methods, choose Tools | Templates.
+    }
+    
+   
+    public void sharepass() throws IOException{
+        main m = new main();
+        
+        m.changeScene("sharescreen.fxml");
     }
     
     

@@ -11,12 +11,14 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -43,6 +45,16 @@ public class main extends Application {
             Button addp = new Button("Add");
             Button dp = new Button("Delete");
             Button shareb = new Button("Share");
+            TextField messbox = new TextField();
+            TextField rbox = new TextField();
+            TextField subjectbox = new TextField();
+            Button sendb = new Button("Send");
+            Button cancelb = new Button("Cancel");
+            Button sie = new Button("Sign into Email");
+            TextField eemail = new TextField();
+            PasswordField epass = new PasswordField();
+            Button cso = new Button ("Cancel");
+            Button sso = new Button("Sign in");
         primaryStage.setTitle("Password Keeper");
         primaryStage.setScene(new Scene(root, 1064, 700));
         primaryStage.show();
@@ -63,5 +75,7 @@ public class main extends Application {
     public static void main(String[] args){
     launch(args);
 }
+
+    
 }
 

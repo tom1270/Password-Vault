@@ -47,5 +47,5 @@
          <Font name="Segoe UI Bold" size="23.0" />
       </font>
    </Label>
-   <Button fx:id="shareb" layoutX="552.0" layoutY="548.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="142.0" style="-fx-background-color: lightblue;" text="Share" />
+   <Button fx:id="shareb" layoutX="552.0" layoutY="548.0" mnemonicParsing="false" onAction="#sharepass" prefHeight="70.0" prefWidth="142.0" style="-fx-background-color: lightblue;" text="Share" />
 </AnchorPane>
