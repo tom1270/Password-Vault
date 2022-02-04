@@ -118,7 +118,7 @@ public class AccountCreateControl {
         pset.setText("Password is valid!");
         PassController.pass = Password;
         PassController.userna = Username;
-        m.changeScene("Pass_Sharing.fxml");
+        m.changeScene("Pass_Sharing.fxml", 640, 379);
       }
        System.out.print(Password + " and " + Username);
     }

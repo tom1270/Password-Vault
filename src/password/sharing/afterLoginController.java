@@ -93,7 +93,7 @@ public class afterLoginController implements Initializable{
     public void sharepass() throws IOException{
         main m = new main();
         
-        m.changeScene("sharescreen.fxml");
+        m.changeScene("sharescreen.fxml", 1280, 800);
     }
     
     

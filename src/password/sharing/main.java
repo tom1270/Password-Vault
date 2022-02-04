@@ -56,13 +56,13 @@ public class main extends Application {
             Button cso = new Button ("Cancel");
             Button sso = new Button("Sign in");
         primaryStage.setTitle("Password Keeper");
-        primaryStage.setScene(new Scene(root, 1064, 700));
+        primaryStage.setScene(new Scene(root, 640, 379));
         primaryStage.show();
     }
     
-   public void changeScene(String fxml) throws IOException{
+   public void changeScene(String fxml, int w, int h) throws IOException{
         Parent pane = FXMLLoader.load(getClass().getResource(fxml));
-        stg.getScene().setRoot(pane);
+        stg.setScene(new Scene(pane, w, h));
     }
     
     

@@ -32,7 +32,7 @@ public class ESignController {
     
     public void cancelso() throws IOException{
         main m = new main();
-        m.changeScene("sharescreen.fxml");
+        m.changeScene("sharescreen.fxml", 1280, 800);
     }
     
     public void signon() throws IOException{
@@ -41,7 +41,7 @@ public class ESignController {
         SendEmail.user = eemail.getText();
         SendEmail.pass = epass.getText();
      
-        m.changeScene("sharescreen.fxml");
+        m.changeScene("sharescreen.fxml", 1280, 800);
     }
     
 }

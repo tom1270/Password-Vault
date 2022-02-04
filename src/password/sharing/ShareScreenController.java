@@ -51,19 +51,19 @@ public class ShareScreenController {
     
     public void SIE() throws IOException{
         main m = new main();
-        m.changeScene("esignon.fxml");
+        m.changeScene("esignon.fxml", 640, 400);
     }
     
     public void sents() throws IOException{
         SendEmail SE = new SendEmail(rbox.getText(), subjectbox.getText(), messbox.getText());
         
         main m = new main();
-        m.changeScene("afterLogin.fxml");
+        m.changeScene("afterLogin.fxml", 1064, 632);
     }
     
     public void cancelsend() throws IOException{
         main m = new main();
-        m.changeScene("afterLogin.fxml");
+        m.changeScene("afterLogin.fxml", 1064, 632);
     }
     
 }

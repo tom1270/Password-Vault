@@ -44,11 +44,11 @@ public class PassController {
         if(usernamef.getText().equals(userna) && passwordf.getText().equals(pass)){
             lcheck.setText("success");
             
-            m.changeScene("afterLogin.fxml");
+            m.changeScene("afterLogin.fxml", 1064, 632);
         }else if(usernamef.getText().equals("admin") && passwordf.getText().equals("boss")){
             lcheck.setText("success");
             
-            m.changeScene("afterLogin.fxml");
+            m.changeScene("afterLogin.fxml", 1064, 632);
         }else if(usernamef.getText().isEmpty() && passwordf.getText().isEmpty()){
             lcheck.setText("Please enter a login");
         }else{
@@ -62,7 +62,7 @@ public class PassController {
     public void signUp() throws IOException{
         main m = new main();
         
-        m.changeScene("AccountCreate.fxml");
+        m.changeScene("AccountCreate.fxml", 640, 379);
     }
     
     
